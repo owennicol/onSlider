@@ -1,0 +1,33 @@
+<!doctype html>
+<head>
+	<title>SLIDER DEMO</title>
+</head>
+<body>
+	<h1>onSlider: Demo</h1>
+	<ul>
+		<li>
+			<img src="img/1.png" />
+		</li>
+		<li>
+			<img src="img/2.png" />
+		</li>
+		<li>
+			<img src="img/3.png" />
+		</li>
+		<li>
+			<img src="img/4.jpg" />
+		</li>
+		<li>
+			<img src="img/5.jpg" />
+		</li>
+	</ul>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="application/javascript"></script>
+	<script src="js/jquery.onSlider.js"></script>
+	<script>
+		$('ul').onSlider({
+			pause: 400,
+			speed: 2000,
+			transition:'slide'
+		});
+	</script>
+</body>
